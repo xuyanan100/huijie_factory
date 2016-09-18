@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView 
+    android:id="@+id/fragment_tab_dialog_tv"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="18dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="名称"  />
+    <EditText 
+    android:id="@+id/fragment_tab_dialog_et"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center_vertical"
+    android:inputType="text"/>
+    <ImageView 
+    android:id="@+id/fragment_tab_dialog_iv"
+    android:layout_width="90dp"
+    android:layout_height="90dp" 
+    android:src="@drawable/ic_launcher"/>
+   </LinearLayout>
+
+

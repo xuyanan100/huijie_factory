@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo_zhy_25_detail_of_download</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="construc_type">结构类型</string>
+    <string name="shaolong">少垄</string>
+    <string name="yingbi">影壁</string>
+    <string name="weiqiang">围墙</string>
+    <string name="others">其他</string>
+    <string name="changdu">长度</string>
+    <string name="kuandu">宽度</string>
+    <string name="pinzhong">品种</string>
+    <string name="danwei">块/米</string>
+    <string name="shuliang">数量（块）</string>
+    <string name="calculate">开始计算</string>
+    <string name="clear">初始化</string>
+     <string name="xinghao">型号</string>
+</resources>

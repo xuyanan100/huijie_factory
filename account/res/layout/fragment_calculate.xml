@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="72dp"
+      android:orientation="vertical"
+      android:layout_marginTop="@dimen/activity_vertical_margin">
+       <TextView 
+            android:id="@+id/construction_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/construc_type"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+            <RadioGroup 
+                android:id="@+id/mortgage_type_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:paddingBottom="1dp">
+              <RadioButton
+                    android:id="@+id/mortgage_type_business_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_weight="1.0"
+                    android:text="@string/shaolong"/>
+
+                <RadioButton
+                    android:id="@+id/mortgage_type_housing_fund_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="@string/yingbi"/>
+
+                <RadioButton
+                    android:id="@+id/mortgage_type_combine_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"                    
+                    android:text="@string/weiqiang"/>  
+                 <RadioButton
+                    android:id="@+id/mortgage_type_combine_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="@string/others"/>        
+                
+            </RadioGroup>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/blue_light"/> -->
+        <LinearLayout
+            android:id="@+id/calculate_type_combine_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+          <LinearLayout 
+              android:id="@+id/chang"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+          <TextView 
+            android:id="@+id/construction_chang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changdu"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+            <EditText
+                    android:id="@+id/calculate_type_changdu"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="米"/>
+<!--            <Button 
+               android:id="@+id/construction_calcutate"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.0"
+               android:text="@string/calculate"
+               android:textSize="16sp"/> -->
+            </LinearLayout>
+         <LinearLayout 
+            android:id="@+id/kuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">      
+          <TextView 
+                   android:id="@+id/construction_kuan"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/kuandu"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+            <EditText
+                    android:id="@+id/calculate_type_kuandu"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"/>
+
+             <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="米"/>
+          <Button 
+               android:id="@+id/construction_clear"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.0"
+               android:text="@string/clear"
+               android:textSize="16sp"/>
+              </LinearLayout>
+        </LinearLayout>
+     <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/blue_light"/> 
+     <LinearLayout 
+            android:id="@+id/calculate_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal" >
+           <TextView 
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.0"
+                   android:text="@string/pinzhong"                   
+                   android:textSize="13sp"
+                   android:textStyle="bold" />
+           <TextView 
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.0"
+                   android:text="@string/xinghao"                   
+                   android:textSize="13sp"
+                   android:textStyle="bold" />
+            <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.0"
+                   android:text="@string/danwei"                   
+                   android:textSize="13sp"
+                   android:textStyle="bold"/>
+             <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.0"
+                   android:text="@string/shuliang"                   
+                   android:textSize="13sp"
+                   android:textStyle="bold"/>
+        
+     </LinearLayout>
+
+        <ListView 
+          android:id="@+id/calculate_lv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+        </ListView>
+
+
+</LinearLayout>
